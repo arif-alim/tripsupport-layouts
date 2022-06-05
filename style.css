@@ -1,0 +1,115 @@
+/*
+Theme Name:				New TripSupport
+Text Domain:			TripSupport
+Version:					1.0.0
+Description:			Redesigned the website using Tailwind CSS.
+Author:						Arif Alim
+Author URI: 			https:/linkedin.com/in/arifalim/
+*/
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url('/assets/fonts/Inter-Light.woff2') format('woff2'), url('/assets/fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/assets/fonts/Inter-Regular.woff2') format('woff2'), url('/assets/fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('/assets/fonts/Inter-Medium.woff2') format('woff2'), url('/assets/fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('/assets/fonts/Inter-SemiBold.woff2') format('woff2'),
+		url('/assets/fonts/Inter-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('/assets/fonts/Inter-Bold.woff') format('woff2'), url('/assets/fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url('/assets/fonts/Inter-ExtraBold.woff2') format('woff2'),
+		url('/assets/fonts/Inter-ExtraBold.woff') format('woff');
+}
+
+.covid.flex {
+	max-width: 80rem !important;
+}
+.main-menu a:active {
+	--tw-text-opacity: 1;
+	color: rgb(225 29 72 / var(--tw-text-opacity));
+	font-weight: 600;
+}
+.border {
+	border-style: solid;
+}
+ol.svelte-1907t1f.svelte-1907t1f {
+	counter-reset: item;
+}
+ol.svelte-1907t1f > li.svelte-1907t1f {
+	display: block;
+	margin-bottom: 2rem;
+}
+ol.svelte-1907t1f > li.svelte-1907t1f:before {
+	content: counters(item, '.') '. ';
+	counter-increment: item;
+	padding-right: 8px;
+}
+p.svelte-1907t1f.svelte-1907t1f:first-child {
+	margin-top: 12px;
+}
+p.svelte-1907t1f.svelte-1907t1f {
+	line-height: 1.775;
+	font-weight: 400;
+	padding: 6px 0;
+}
+
+.active {
+	color: red;
+}
+.btn-text-white {
+	color: white !important;
+}
+.d-flex {
+	display: flex;
+}
+.menu-mobile-show {
+	display: block !important;
+	position: absolute;
+	left: 0;
+	top: 56px;
+}
+.btn_Subscribe{
+	height:38px;
+}
+.btn_Subscribe:hover{
+	--tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+	--tw-bg-opacity: 1;
+    background-color: rgb(0 36 107 / var(--tw-bg-opacity));
+}
